@@ -87,8 +87,17 @@ export default function Hero() {
                 <Mail size={24} />
               </div>
               <div>
-                <p className="text-xs font-bold text-accent/50 uppercase tracking-wider">Contact</p>
-                <p className="font-bold text-primary">ubhoiwade@gmail.com</p>
+                <a 
+  href="mailto:ubhoiwade@gmail.com" 
+  className="flex flex-col group cursor-pointer"
+>
+  <p className="text-xs font-bold text-accent/50 uppercase tracking-wider group-hover:text-highlight transition-colors">
+    Contact
+  </p>
+  <p className="font-bold text-primary group-hover:text-highlight transition-colors">
+    ubhoiwade@gmail.com
+  </p>
+</a>
               </div>
             </div>
           </motion.div>

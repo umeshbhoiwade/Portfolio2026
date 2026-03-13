@@ -21,7 +21,7 @@ export default function App() {
         <Certifications />
         <Contact />
       </main>
-      <Footer />
+      
     </div>
   );
 }

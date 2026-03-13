@@ -35,7 +35,7 @@ const skillCategories = [
     skills: ["Git", "Postman", "REST APIs"]
   },
   {
-    title: "Concepts",
+    title: "Logical",
     icon: <BrainCircuit className="text-highlight" />,
     skills: ["OOP", "Data Structures", "Algorithms"]
   }

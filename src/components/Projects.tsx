@@ -1,38 +1,41 @@
 import { motion } from 'motion/react';
 import { Github, ExternalLink, Code } from 'lucide-react';
 import aria from "../photos/aria.png";
+import autoreply from "../photos/autoreply.png";
+import loan from "../photos/loanapp.png";
+import port from "../photos/port.png";
 const projects = [
   {
     title: "ARIA – AI Powered Research Assistant",
     tech: ["Python", "Streamlit", "Gemini AI"],
     description: "AI based system that extracts, analyzes and interprets information from multiple file formats including PDF and text.",
     image: aria,
-    github: "#",
+    github: "https://github.com/umeshbhoiwade/Portfolio2026",
     demo: "#"
   },
   {
     title: "AUTOREPLY – Email Reply Generator",
     tech: ["Java", "Spring Boot", "React", "Gemini API"],
     description: "AI powered email reply generator that creates contextual responses using Gemini API for professional communication.",
-    image: "https://picsum.photos/seed/autoreply/600/400",
-    github: "#",
+    image: autoreply,
+    github:"https://github.com/umeshbhoiwade/AutoReplyAI",
     demo: "#"
   },
   {
-    title: "BOOKNEST – Library Management System",
-    tech: ["Java", "Spring Boot", "PostgreSQL", "JWT"],
-    description: "Full-featured library system with JWT authentication, role-based access control, and comprehensive REST APIs.",
-    image: "https://picsum.photos/seed/booknest/600/400",
-    github: "#",
+    title: "FinBridge - Loan Application Platform",
+    tech: ["Java" ,"Spring Boot","Hibernate","JSP","Spring MVC"],
+    description: "Developed a web-based loan application system with Admin and User modules, enabling users to apply for loans and allowing admins to review, approve, or reject applications with status tracking.",
+    image: loan,
+    github: "https://github.com/umeshbhoiwade/LoanApplication",
     demo: "#"
   },
   {
-    title: "Personal Portfolio Website",
-    tech: ["React", "Tailwind CSS", "Motion"],
+    title: "Portfolio Website using react ",
+    tech: ["HTML" ,"CSS", "JavaScript ","React.js"],
     description: "A modern, responsive developer portfolio showcasing projects and skills with a clean, creative aesthetic.",
-    image: "https://picsum.photos/seed/portfolio/600/400",
-    github: "#",
-    demo: "#"
+    image: port ,
+    github: "https://github.com/umeshbhoiwade/Umesh-Portfolio",
+    demo: "https://portfolio-bhoiwade.netlify.app/"
   }
 ];
 
